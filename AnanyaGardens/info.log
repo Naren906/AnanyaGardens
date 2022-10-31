@@ -504,3 +504,5 @@ Not Found: /{% static                            'images/Projects/project04.jpg'
 Not Found: /{% static                                        'images/gallery/Gal-04.jpg'%}
 Not Found: /{% static                                        'images/gallery/Gal-02.jpg'%}
 Not Found: /{% static                                        'images/gallery/Gal-06.jpg'%}
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
