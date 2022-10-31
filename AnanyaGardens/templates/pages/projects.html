@@ -1,0 +1,97 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<!--Page Title-->
+<section class="page-title" style="background-image: url('{%static 'images/main-slider/father.jpg'%}');">
+    <div class="auto-container">
+        <div class="inner-container clearfix">
+            <div class="title-box">
+                <h1>Projects</h1>
+                <span class="title">The Interior speak for themselves</span>
+            </div>
+            <ul class="bread-crumb clearfix">
+                <li><a href="{% url 'dash_home'%}">Home</a></li>
+                <li>Projects</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--End Page Title-->
+
+<!-- Gallary Projects Section -->
+<section class="projects-section alternate">
+    <div class="auto-container">
+ 
+        <div class="mixitup-gallery">
+
+            <div class="filters text-center clearfix">                     
+                <ul class="filter-tabs filter-btns clearfix">
+                    <li class="active filter" data-role="button" data-filter="all">All</li>
+                    <li class=" filter" data-role="button" data-filter=".ongoing">On-Going</li>
+                    <li class="filter" data-role="button" data-filter=".completed">Completed</li>
+                </ul>                                                  
+            </div>
+                                        
+            <div class="filter-list row">
+
+                <div class="project-block news-block all mix ongoing col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><img src="{% static 'images\Projects\Arch.jpg'%}" alt=""></figure>
+                            <div class="overlay-box"><a href="{% url 'projectdetails'%}" ><i class="fa fa-link"></i></a></div>
+                        </div>
+                        <div class="caption-box">
+                            <h3><a href="{% url 'projectdetails'%}">Ananya's AA Garden</a></h3>
+                            <ul class="info">
+                                <li>06 June 2022,</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+          
+                <div class="project-block news-block all mix completed col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><img src="{% static 'images\Projects\completed\unknown1\smallthumb.jpg'%}" alt=""></figure>
+                            <div class="overlay-box">
+                                <a href="{% url 'Projectcompleted1'%}">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="caption-box">
+                            <h3><a href="{% url 'Projectcompleted1'%}">Completed.</a></h3>
+                            <ul class="info">
+                                <li>06 June 2021,</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+                <div class="project-block news-block all mix ongoing col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><img src="{% static 'images/resource/news-1.jpg'%}" alt=""></figure>
+                            <div class="overlay-box"><a href="#"><i class="fa fa-link"></i></a></div>
+                        </div>
+                        <div class="caption-box">
+                            <h3><a href="#">Comming Soon .</a></h3>
+                            <ul class="info">
+                                <li>-,</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
+    </div>
+</section>
+<!--  Gallary END Projects Section -->
+
+
+
+{% endblock %}

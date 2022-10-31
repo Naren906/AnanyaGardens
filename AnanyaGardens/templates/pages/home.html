@@ -1,0 +1,603 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<!-- Banner slider Section -->
+<section class="banner-section-five full-screen">
+    <div class="banner-carousel owl-carousel owl-theme">
+
+        <!-- Slide Item -->
+        <div class="slide-item" style="background-image: url('{%static 'images/main-slider/arch.jpg'%}');">
+            <div class="auto-container">
+                <div class="content-box">
+                    <span class="title"></span>
+                    <h2>The Future <br> is happening Here.</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide Item -->
+        <div class="slide-item" style="background-image: url('{%static 'images/main-slider/father.jpg'%}');">
+            <div class="auto-container">
+                <div class="content-box">
+                    <span class="title"></span>
+                    <h2>You Don�t Just Build a home <br>You Build A life, A Future</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide Item -->
+        <div class="slide-item" style="background-image: url('{%static 'images/main-slider/lantopview.jpg'%}');">
+            <div class="auto-container">
+                <div class="content-box">
+                    <span class="title"></span>
+                    <h2>To Enhance  <br> Quality of Life.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-links">
+        <ul class="social-icon-three">
+            <li><a href="mailto:enquiry@ananyasgarden.com"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://wa.me/919585740000"><i class="fa fa-whatsapp"></i></a></li>
+        </ul>
+    </div>
+</section>
+<!-- End Banner slider Section -->
+
+
+<!-- About Section -->
+<section class="about-section" style="background-image: url('{% static 'images/aboutus/backimg.jpg'%}');">
+    <div class="auto-container">
+        <div class="row no-gutters">
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner-column">
+                    <div class="title-box wow fadeInLeft" data-wow-delay='1200ms'>
+
+                        <!--Column-->
+                        <div class="fact-counter">
+                            <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+                                <div class="count-box">
+                                    <div class="count"><span class="count-text" data-speed="5000" data-stop="25">0</span></div>
+                                    <div class="counter-title"><h4>YearOf<br>Experience</h4></div>
+                                </div>
+                            </div>
+                        </div>  
+
+                         <!--Column-->
+                         <div class="fact-counter">
+                            <div class="counter-column col-lg-5 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+                                <div class="count-box">
+                                    <div class="count"><span class="count-text" data-speed="5000" data-stop="3">0M</span></div>
+                                    <div class="counter-title"><h4>Million Sq feet <br>Project Handled</h4></div>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <!--Column-->
+                        <div class="fact-counter">
+                            <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+                                <div class="count-box">
+                                    <div class="count"><span class="count-text" data-speed="5000" data-stop="12">0</span></div>
+                                    <div class="counter-title"><h4>Awards won</h4></div>
+                                </div>
+                            </div>
+                        </div>  
+
+                        <h2>ABOUT US</h2>
+                    </div>
+                    <div class="image-box wow fadeInRight"
+                        data-wow-delay='600ms'>
+                        <figure class="alphabet-img"><img src="{% static 'images/aboutus/alphabet-image.png'%}" alt=""></figure>
+                        <figure class="image"><img src="{% static 'images/background/aboutus.jpg'%}" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner-column wow fadeInLeft">
+                    <div class="content-box">
+                        <div class="title">
+                            <h2>Learn More About Us!</h2>
+                        </div>
+                        <div class="text">
+                            Ananya Shelters Pvt. Ltd. is a reputed player in Coimbatore real estate space.
+                            We promote premium residential layouts in strategically located areas.
+                            These layouts are planned painstakingly with complete modern amenities.
+                        </div>
+                        <div class="link-box"><a href="{% url 'about'%}" class="theme-btn btn-style-one">About Us</a></div>
+                        <!-- <div class="link-box"><a href="#" class="theme-btn btn-style-one">About Us</a></div> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End About Section -->
+
+<!-- Latest Projects Section -->
+<section class="projects-section-two">
+    <div class="auto-container">
+        <div class="upper-box clearfix">
+            <div class="sec-title">
+                <span class="float-text">Project</span>
+                <h2>Ananya's AA Garden</h2>
+            </div>
+            <div class="link-box"><a href="#">All Project <i class="fa fa-long-arrow-right"></i></a></div>
+        </div>
+        <div class="projects-carousel-two owl-carousel owl-theme">
+            <!-- Project Block -->
+            <div class="project-block-two">
+                <div class="image-box">
+                    <figure class="image"><img src="{% static 'images/Projects/project01.jpg'%}" alt=""></figure>
+                </div>
+                <div class="info-box">
+                    <div class="inner-box">
+                        <span class="title">Villa Plot's</span>  
+                        <h3>Ananya's AA Garden</h3>
+                        <div class="text">Offers you much more that just loaction. You have a choice of plots for you to build your home .</div>
+                        <div class="link-box ">
+                            <a href="{% url 'projects'%}" class="d-flex justify-content-center">View Project</a>
+                            <p class="d-flex justify-content-center">Or Download Broucher</p>
+                            {% if submit == 'True' %}
+                            <a class="d-flex justify-content-center" style="color: #1fb161;" 
+                            href="{% static 'pdf/ananya_aa_e_brouch.pdf'%}" download>AAGarden.pdf</a>
+                            {% else %}
+                            <a class="d-flex justify-content-center" data-toggle="modal" data-target="#myModal" style="color: #1fb161;">AAGarden.pdf</a>
+                            {% endif %}
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            
+            <!-- Project Block -->
+            <div class="project-block-two">
+                <div class="image-box">
+                    <figure class="image"><img src="{% static 'images/Projects/project04.jpg'%}" alt=""></figure>
+                </div>
+                <div class="info-box">
+                    <div class="inner-box">
+                        <span class="title">Villa Plot's</span>  
+                        <h3>Ananya's AA Garden</h3>
+                        <div class="text">Offers you much more that just loaction. You have a choice of plots for you to build your home .</div>
+                        <div class="link-box">
+                            <a href="{% url 'projects'%}" class="d-flex justify-content-center">View Project</a>
+                            <p class="d-flex justify-content-center">Or Download Broucher</p>
+                            <a class="d-flex justify-content-center" style="color: #1fb161;" 
+                            href="{% static 'pdf/ananya_aa_e_brouch.pdf'%}" download>AAGarden.pdf</a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <!-- Project Block -->
+            <div class="project-block-two">
+                <div class="image-box">
+                    <figure class="image"><img src="{% static 'images/Projects/project02.jpg'%}" alt=""></figure>
+                </div>
+                <div class="info-box">
+                    <div class="inner-box">
+                        <span class="title">Villa Plot's</span>  
+                        <h3>Ananya's AA Garden</h3>
+                        <div class="text">Offers you much more that just loaction. You have a choice of plots for you to build your home .</div>
+                        <div class="link-box">
+                            <a href="{% url 'projects'%}" class="d-flex justify-content-center">View Project</a>
+                            <p class="d-flex justify-content-center">Or Download Broucher</p>
+                            <a class="d-flex justify-content-center" style="color: #1fb161;" 
+                            href="{% static 'pdf/ananya_aa_e_brouch.pdf'%}" download>AAGarden.pdf</a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Latest Projects Section -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.118859616108!2d76.98888699999999!3d11.104518500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f7f7780993bb%3A0x46c7334d1fdd7785!2sAnanya&#39;s%20AA%20Garden!5e0!3m2!1sen!2sin!4v1660936321252!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0">
+    </iframe>
+<!-- Video Section -->
+<section class="video-section">
+    <div class="outer-box" style="background-image: url('{% static 'images/gallery/whous.jpg'%}');">
+        <div class="auto-container">
+            <div class="row">
+                <div class="content-column col-lg-5 col-md-12
+                    col-sm-12">
+                    <div class="inner-column">
+                        <div class="sec-title light">
+                            <span class="About-text"></span>
+                            <h1>GO EXPLORE</h1>
+                        </div>
+                        <!-- <span class="title">We Give You The Best</span> -->
+                        <div class="text">You have reached that point in life when all thath matters is the happiness of your loved onces.
+                            That's why you will go to any length to ensure that and first on your priority list is to build a home that would
+                             have everything you could think possiaby think of to keep your family happy.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Column -->
+                    
+                    <div class="video-column col-lg-7 col-md-12 col-sm-12">
+                        <div class="inner-column">
+                            <div class=" video-box">
+                                <figure class="image">
+                                        <img src="{% static 'images/main-slider/arch.jpg'%}" alt="">
+                                        <a  href="https://www.youtube.com/watch?v=VgSZZDTNqYc"
+                                            class="link"
+                                            data-fancybox=""
+                                            data-caption="">
+                                            <span class="icon fa fa-play"></span>
+                                        </a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>    
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Video Section -->
+
+<!-- Gallery -->
+<section class="products-section">
+    <div class="auto-container">
+        <div class="sec-title">
+            <span class="About-text">Gallery</span>
+            <!-- <h2>Builday Products</h2> -->
+        </div>
+        <div class="row">
+            <div class="title-column col-lg-3 col-md-12 col-sm-12">
+                <div class="inner-column">
+                    <h4>Ananya's Gallery</h4>
+                    <div class="text">We have the perfect location to build your home just the way you want it.
+                        So we offer you well offer you well laid out plots all ready and waiting for you to build your home.
+                    </div>
+                        <div class="link-box"><a href="{% url 'gallary'%}">Explore More...</a></div>
+                </div>
+            </div>
+
+            <div class="products-column col-lg-9 col-md-12
+                col-sm-12">
+                <div class="products-carousel owl-carousel
+                    owl-theme">
+                    <!-- Product Block -->
+                    <div class="product-block">
+                        <div class="image-box">
+                            <a href="{% static 'images/gallery/Gal-01.jpg'%}"
+                                class="lightbox-images gallary"
+                                data-fancybox="gallery">
+                                <figure class="image">
+                                    <img src="{% static 'images/gallery/Gal-01.jpg'%}" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Product Block -->
+                    <div class="product-block">
+                        <div class="image-box">
+                            <a href="{% static 'images/gallery/Gal-05.jpg'%}"
+                                class="lightbox-images gallary"
+                                data-fancybox="gallery">
+                                <figure class="image">
+                                    <img src="{% static 'images/gallery/Gal-05.jpg'%}" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Product Block -->
+                    <div class="product-block">
+                        <div class="image-box">
+                            <a href="{% static 'images/gallery/Gal-03.jpg'%}"
+                                class="lightbox-images gallary"
+                                data-fancybox="gallery">
+                                <figure class="image">
+                                    <img src="{% static 'images/gallery/Gal-03.jpg'%}" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                     <!-- Product Block -->
+                     <div class="product-block">
+                        <div class="image-box">
+                            <a href="{% static 'images/gallery/Gal-04.jpg'%}"
+                                class="lightbox-images gallary"
+                                data-fancybox="gallery">
+                                <figure class="image">
+                                    <img src="{% static 'images/gallery/Gal-04.jpg'%}" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                     <!-- Product Block -->
+                     <div class="product-block">
+                        <div class="image-box">
+                            <a href="{% static 'images/gallery/Gal-02.jpg'%}"
+                                class="lightbox-images gallary"
+                                data-fancybox="gallery">
+                                <figure class="image">
+                                    <img src="{% static 'images/gallery/Gal-02.jpg'%}" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                     <!-- Product Block -->
+                     <div class="product-block">
+                        <div class="image-box">
+                            <a href="{% static 'images/gallery/Gal-06.jpg'%}"
+                                class="lightbox-images gallary"
+                                data-fancybox="gallery">
+                                <figure class="image">
+                                    <img src="{% static 'images/gallery/Gal-06.jpg'%}" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Gallery -->
+<!-- Amenities Section -->
+<section class="process-section home-ul" style="background-image: url('{%static 'images/background/8.jpg'%}');">
+    <div class="auto-container ">
+        <div class="sec-title light ">
+            <span class="About-text items-ul"></span>
+            <h1>Amenities</h1>
+        </div>
+        <div class="row appear">
+            <!-- Process Block -->
+            <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <div class="count"><img src="{% static 'images/icons/police.png'%}" alt="security"></div>
+                    <h4><a href="#">24/7 Security</a></h4>
+                    <div class="text">If a threat is detected, the MSSP will
+                        activate an incident response plan.
+                        the MSSP will take full responsibility ,responding.</div>
+                </div>
+            </div>
+
+            <!-- Process Block -->
+            <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/underwater.png'%}" alt="security"></span>
+                    <h4><a href="#">Metered RO water connection</a></h4>
+                    <div class="text">Uninterrupted supply of safe drinking water
+                        is extremely crucial for ever household.</div>
+                </div>
+            </div>
+
+            <!-- Process Block -->
+            <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/cctv.png'%}" alt="security"></span>
+                    <h4><a href="#">CCTV with live view</a></h4>
+                    <div class="text">Security beeing a very vital aspect for a
+                        property we have installed CCTV cameras in strategic points.A feature provide complete peace of mind   </div>
+                </div>
+            </div>
+
+            <!-- Process Block -->
+            <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/walkingarea.png'%}" alt="security"></span>
+                    <h4><a href="#">Walking Area</a></h4>
+                    <div class="text">Keeping in mind the requirements physical
+                        activity among residents a good walking track is built in our property.</div>
+                </div>
+            </div>
+            <!-- Process Block -->
+            <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/Gym.png'%}" alt="security"></span>
+                    <h4><a href="#">GYM</a></h4>
+                    <div class="text">A GYM is must in any residential area
+                        Considering the morden life style asequate emphasis is
+                        given for the residents conveniences.</div>
+                </div>
+            </div>
+
+            <!-- Process Block -->
+            <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/watertower.png'%}" alt="security"></span>
+                    <h4><a href="#">Water Tank</a></h4>
+                    <div class="text">Common sump and over head water tank with
+                        direct supply lines to
+                        every plot and charge accourding consumption.</div>
+                </div>
+            </div>
+
+              <!-- Process Block -->
+              <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/lamp.png'%}" alt="security"></span>
+                    <h4><a href="#">Street Lamp</a></h4>
+                    <div class="text">We are keen adopting the clean,,renewable and installing solor powered street lights for that streets and harvest sun power.
+                    </div>
+                </div>
+            </div>
+
+              <!-- Process Block -->
+              <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/turf.png'%}" alt="security"></span>
+                    <h4><a href="#">Turf</a></h4>
+                    <div class="text">Good To cater to the needs of active residents we are installing a Turf court for engaging  multi-sport activities and childerns health.</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--End Process Section -->
+
+<!-- Testimonial Section Two-->
+<section class="testimonial-section-two">
+    <div class="auto-container">
+        <div class="sec-title">
+            <span class="float-text">Testimonial</span>
+            <h2>What Clients Says</h2>
+        </div>
+
+        <div class="testimonial-carousel-two owl-carousel
+            owl-theme">
+            <!-- Testimonial block two -->
+            <div class="testimonial-block-two">
+                <div class="inner-box">
+                    <div class="text">I got an excellent design for
+                        my future home, from cooperation i was very
+                        pleased, everything was done at the highest
+                        level.Boldly I recommend to all this
+                        company.</div>
+                    <div class="info-box">
+                        <div class="thumb"><img src="{% static 'images/icons/testimonial_icon.png'%}"/></div>
+                        <h5 class="name">Om_Prakash</h5>
+                        <span class="date">July 28 - 2022</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial block two -->
+            <div class="testimonial-block-two">
+                <div class="inner-box">
+                    <div class="text">I got an excellent design for
+                        my future home, from cooperation i was very
+                        pleased, everything was done at the highest
+                        level.Boldly I recommend to all this
+                        company.</div>
+                    <div class="info-box">
+                        <div class="thumb"><img src="{% static 'images/icons/testimonial_icon.png'%}"/></div>
+                        <h5 class="name">Aadhi_Keashwa</h5>
+                        <span class="date">July 28 - 2022</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial block two -->
+            <div class="testimonial-block-two">
+                <div class="inner-box">
+                    <div class="text">I got an excellent design for
+                        my future home, from cooperation i was very
+                        pleased, everything was done at the highest
+                        level.Boldly I recommend to all this
+                        company.</div>
+                    <div class="info-box">
+                        <div class="thumb"><img src="{% static 'images/icons/testimonial_icon.png'%}"/></div>
+                        <h5 class="name">Keashwa</h5>
+                        <span class="date">July 28 - 2022</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial block two -->
+            <div class="testimonial-block-two">
+                <div class="inner-box">
+                    <div class="text">I got an excellent design for
+                        my future home, from cooperation i was very
+                        pleased, everything was done at the highest
+                        level.Boldly I recommend to all this
+                        company.</div>
+                    <div class="info-box">
+                        <div class="thumb"><img src="{% static 'images/icons/testimonial_icon.png'%}"/></div>
+                        <h5 class="name">Narenkiki_</h5>
+                        <span class="date">July 28 - 2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Testimonial Section Two-->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">Submit</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <form action="{% url 'projectdetails'%}" method="POST">
+                {% csrf_token %}
+                <div class="">
+                    <div class="md-form">
+                        <label for="form34">Your name</label>
+                        <input type="text" id="form34" name="txtname" class="form-control validate" required>
+                    </div>
+                    <div class="md-form">
+                        <label data-error="wrong"  data-success="right" for="form29">Your email</label>
+                        <input type="email" id="form29" name="txtemail" class="form-control validate" required>
+                    </div>
+                    <div class="md-form">
+                        <label data-error="wrong"  data-success="right" for="form32">Mobile Number</label>
+                        <input type="text" id="form32" name="txtmob" class="form-control validate" required>
+                    </div>
+                    <input type="hidden" id="form32" name="confirmotp" class="form-control validate" value="0" required>
+                </div>
+        
+                <div class="field col-xl-12 d-flex justify-content-center mt-3">
+                <button class="theme-btn btn-style-one">Submit</button>
+                </div>
+            </form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+  <script>
+    // var viewBtn = document.querySelector(".popupmodal");
+    // viewBtn.onclick = ()=>{
+    //     popup.classList.toggle("show");
+    // }
+    // popup = document.querySelector(".popup");
+    //   close = popup.querySelector(".close"),
+    //   field = popup.querySelector(".field");
+  
+  
+
+  </script>
+  
+
+
+
+
+
+
+
+<script>
+    const appear = document.querySelector('.appear'); 
+    const cb = function(entries){
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('inview');
+    }else{
+      entry.target.classList.remove('inview');
+    }
+  });
+}
+    const io = new IntersectionObserver(cb);
+    io.observe(appear);
+</script>
+{% endblock %}

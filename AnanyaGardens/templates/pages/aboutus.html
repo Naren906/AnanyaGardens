@@ -1,0 +1,416 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<!--Page Title-->
+<section class="page-title" style="background-image: url('{%static 'images/main-slider/father.jpg'%}');">
+    <div class="auto-container">
+        <div class="inner-container clearfix">
+            <div class="title-box">
+                <h1>About Us</h1>
+                <!-- <span class="title">The Interior speak for themselves</span> -->
+            </div>
+            <ul class="bread-crumb clearfix">
+                <li><a href="{% url 'dash_home'%}">Home</a></li>
+                <li>About Us</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--End Page Title-->
+
+<!-- About Section -->
+<section class="about-section" style="background-image: url('{% static 'images/background/1.jpg'%}');">
+    <div class="auto-container">
+        <div class="row no-gutters">
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner-column">
+                    <div class="title-box wow fadeInLeft" data-wow-delay='1200ms'>
+
+                        <!--Column-->
+                        <div class="fact-counter">
+                            <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+                                <div class="count-box">
+                                    <div class="count"><span class="count-text" data-speed="5000" data-stop="14">0</span></div>
+                                    <div class="counter-title"><h4>YearOf<br>Experience</h4></div>
+                                </div>
+                            </div>
+                        </div>  
+
+                         <!--Column-->
+                         <div class="fact-counter">
+                            <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+                                <div class="count-box">
+                                    <div class="count"><span class="count-text" data-speed="5000" data-stop="237">0</span></div>
+                                    <div class="counter-title"><h4>Project <br>Taken</h4></div>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <!--Column-->
+                        <div class="fact-counter">
+                            <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+                                <div class="count-box">
+                                    <div class="count"><span class="count-text" data-speed="5000" data-stop="12">0</span></div>
+                                    <div class="counter-title"><h4>Awards won</h4></div>
+                                </div>
+                            </div>
+                        </div>  
+
+                        <h2>ABOUT US</h2>
+                    </div>
+                    <div class="image-box wow fadeInRight"
+                        data-wow-delay='600ms'>
+                        <figure class="alphabet-img"><img src="{% static 'images/resource/alphabet-image.png'%}" alt=""></figure>
+                        <figure class="image"><img src="{% static 'images/background/aboutus.jpg'%}" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner-column wow fadeInLeft">
+                    <div class="content-box">
+                        <div class="title">
+                            <h2>Learn More About Us!</h2>
+                        </div>
+                        <div class="text">
+                            Welcome to Ananya’s AA Garden! Your comfort is our
+                            priority.
+                            Be it for work or leisure, we  provide
+                            everything you need for a comfortable stay.
+                            Located at the heart of the city,
+                            we are well connected to all the amenities the city
+                            has to offer such as public transportation,
+                            restaurants, clubs, galleries and tourist
+                            attractions.
+                            Ananya’s AA Garden offers you the best of both worlds -
+                            ease of access to all the important areas yet
+                            a peaceful abode for you to stay and rejuvenate away
+                            from all the bustle.
+                            We take pride in our customer service as we ensure
+                            it is always top-notch.
+                            We have meticulously planned every detail of our
+                            Garden to provide a feeling of luxury, style and
+                            comfort.
+                        </div>
+                        <div class="link-box"><a href="{% url 'about'%}"
+                                class="theme-btn btn-style-one">About Us</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End About Section -->
+
+<!-- Fun Fact And Features -->
+<section class="fun-fact-and-features alternate"  style="background-image: url('{% static 'images/background/3.jpg'%}');">
+    <div class="outer-box">
+        <div class="auto-container">
+            <!-- Fact Counter -->
+            <div class="fact-counter">
+                <div class="row">
+                    <!--Column-->
+                    <div class="counter-column-customer col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                        <div class="count-box">
+                            <div class="count"><span class="count-text" data-speed="5000" data-stop="14">0</span></div>
+                            <h4 class="counter-title">Years of <br>Experience</h4>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="counter-column-customer col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="count-box">
+                            <div class="count"><span class="count-text" data-speed="5000" data-stop="237">0</span></div>
+                            <h4 class="counter-title">Project <br>Taken</h4>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="counter-column-customer  col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
+                        <div class="count-box">
+                            <div class="count"><span class="count-text" data-speed="5000" data-stop="15"></span>K</div>
+                            <h4 class="counter-title">Customers</h4>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="counter-column-customer col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+                        <div class="count-box">
+                            <div class="count"><span class="count-text" data-speed="5000" data-stop="12">0</span></div>
+                            <h4 class="counter-title">Awards<br>won</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div class="features">
+                <div class="row">
+                    <!-- Feature Block -->
+                    <div class="feature-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="icon-box"><span class="icon flaticon-decorating"></span></div>
+                            <h3><a href="#">Experiance</a></h3>
+                            <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+                        </div>
+                    </div>
+
+                    <!-- Feature Block -->
+                    <div class="feature-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="icon-box"><span class="icon flaticon-plan"></span></div>
+                            <h3><a href="#">Clients</a></h3>
+                            <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+                        </div>
+                    </div>
+
+                    <!-- Feature Block -->
+                    <div class="feature-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="icon-box"><span class="icon flaticon-sketch-3"></span></div>
+                            <h3><a href="#">Awards Won</a></h3>
+                            <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Fun Fact Section -->
+
+
+<!-- Amenities Section -->
+<section class="process-section home-ul" style="background-image: url('{%static 'images/background/8.jpg'%}');">
+    <div class="auto-container ">
+        <div class="sec-title light ">
+            <span class="About-text items-ul"></span>
+            <h1>Amenities</h1>
+        </div>
+        <div class="row appear">
+            <!-- Process Block -->
+            <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <div class="count"><img src="{% static 'images/icons/police.png'%}" alt="security"></div>
+                    <h4><a href="#">24/7 Security</a></h4>
+                    <div class="text">If a threat is detected, the MSSP will
+                        activate an incident response plan.
+                        the MSSP will take full responsibility ,responding.</div>
+                </div>
+            </div>
+
+            <!-- Process Block -->
+            <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/underwater.png'%}" alt="security"></span>
+                    <h4><a href="#">Metered RO water connection</a></h4>
+                    <div class="text">Uninterrupted supply of safe drinking
+                        water
+                        is extremely crucial for ever household.</div>
+                </div>
+            </div>
+
+            <!-- Process Block -->
+            <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/cctv.png'%}" alt="security"></span>
+                    <h4><a href="#">CCTV with live view</a></h4>
+                    <div class="text">Security beeing a very vital aspect for a
+                        property
+                        we have installed CCTV cameras in strategic points</div>
+                </div>
+            </div>
+
+            <!-- Process Block -->
+            <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/walkingarea.png'%}" alt="security"></span>
+                    <h4><a href="#">Walking Area</a></h4>
+                    <div class="text">Keeping in mind the requirements physical
+                        activity among residents
+                        a good walking track is built in our property.</div>
+                </div>
+            </div>
+            <!-- Process Block -->
+            <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/Gym.png'%}" alt="security"></span>
+                    <h4><a href="#">GYM</a></h4>
+                    <div class="text">A GYM is must in any residential area
+                        Considering the morden life style asequate emphasis is
+                        given for the residents conveniences.</div>
+                </div>
+            </div>
+
+            <!-- Process Block -->
+            <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/watertower.png'%}" alt="security"></span>
+                    <h4><a href="#">Water Tank</a></h4>
+                    <div class="text">Common sump and over head water tank with
+                        direct supply lines to
+                        every plot and charge accourding consumption.</div>
+                </div>
+            </div>
+
+              <!-- Process Block -->
+              <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/lamp.png'%}" alt="security"></span>
+                    <h4><a href="#">Street Lamp</a></h4>
+                    <div class="text">Common sump and over head water tank with
+                        direct supply lines to
+                        every plot and charge accourding consumption.</div>
+                </div>
+            </div>
+
+              <!-- Process Block -->
+              <div class="process-block col-lg-3 col-md-6 col-sm-12">
+                <div class="inner-box">
+                    <span class="count"><img src="{% static 'images/icons/turf.png'%}" alt="security"></span>
+                    <h4><a href="#">Water Tank</a></h4>
+                    <div class="text">Common sump and over head water tank with
+                        direct supply lines to
+                        every plot and charge accourding consumption.</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--End Process Section -->
+
+<!-- Testimonial Section Two-->
+<!-- <section class="testimonial-section-two">
+    <div class="auto-container">
+        <div class="sec-title">
+            <span class="float-text">Testimonial</span>
+            <h2>What Clients Says</h2>
+        </div>
+
+        <div class="testimonial-carousel-two owl-carousel
+            owl-theme">
+            <div class="testimonial-block-two">
+                <div class="inner-box">
+                    <div class="text">I got an excellent design for
+                        my future home, from cooperation i was very
+                        pleased, everything was done at the highest
+                        level.Boldly I recommend to all this
+                        company.</div>
+                    <div class="info-box">
+                        <div class="thumb"><img src="{% static 'images/icons/testimonial_icon.png'%}"/></div>
+                        <h5 class="name">Om_Prakash</h5>
+                        <span class="date">July 28 - 2022</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-block-two">
+                <div class="inner-box">
+                    <div class="text">I got an excellent design for
+                        my future home, from cooperation i was very
+                        pleased, everything was done at the highest
+                        level.Boldly I recommend to all this
+                        company.</div>
+                    <div class="info-box">
+                        <div class="thumb"><img src="{% static 'images/icons/testimonial_icon.png'%}"/></div>
+                        <h5 class="name">Aadhi_Keashwa</h5>
+                        <span class="date">July 28 - 2022</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-block-two">
+                <div class="inner-box">
+                    <div class="text">I got an excellent design for
+                        my future home, from cooperation i was very
+                        pleased, everything was done at the highest
+                        level.Boldly I recommend to all this
+                        company.</div>
+                    <div class="info-box">
+                        <div class="thumb"><img src="{% static 'images/icons/testimonial_icon.png'%}"/></div>
+                        <h5 class="name">Keashwa</h5>
+                        <span class="date">July 28 - 2022</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-block-two">
+                <div class="inner-box">
+                    <div class="text">I got an excellent design for
+                        my future home, from cooperation i was very
+                        pleased, everything was done at the highest
+                        level.Boldly I recommend to all this
+                        company.</div>
+                    <div class="info-box">
+                        <div class="thumb"><img src="{% static 'images/icons/testimonial_icon.png'%}"/></div>
+                        <h5 class="name">Narenkiki_</h5>
+                        <span class="date">July 28 - 2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!--End Testimonial Section Two-->
+
+<!-- Video Section -->
+<!-- <section class="video-section">
+    <div class="outer-box" style="background-image: url('{% static 'images/gallery/whous.jpg'%}');">
+        <div class="auto-container">
+            <div class="row">
+                <div class="content-column col-lg-6 col-md-12
+                    col-sm-12">
+                    <div class="inner-column">
+                        <div class="sec-title light">
+                            <span class="About-text"></span>
+                            <h1>GO EXPLORE</h1>
+                        </div>
+                        <div class="text">When we think of Coimbatore,certain
+                            things resonate instantly ,
+                            the pleasant climate, sweet siruvani water,
+                            courteous people and Ananya's Nana Nani Homes.
+                            More than a decade old, Nana Nani Homes has become
+                            the most desirable senior citizen community in
+                            India..</div>
+                    </div>
+                </div>
+
+                <div class="video-column col-lg-6 col-md-12
+                    col-sm-12">
+                    <div class="inner-column">
+                        <div class="video-box">
+                            <figure class="image">
+                                <img src="{% static 'images/main-slider/image-2.jpg'%}"
+                                    alt="">
+                                <a
+                                    href="https://www.youtube.com/watch?v=XGC7t9OYp_k"
+                                    class="link"
+                                    data-fancybox="gallery"
+                                    data-caption="">
+                                    <span class="icon fa fa-play"></span>
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<script>
+    const appear = document.querySelector('.appear'); 
+    const cb = function(entries){
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('inview');
+    }else{
+      entry.target.classList.remove('inview');
+    }
+  });
+}
+    const io = new IntersectionObserver(cb);
+    io.observe(appear);
+</script>
+{% endblock %}

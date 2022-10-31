@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+    <head>
+        {% include 'headers.html' %}
+        <!-- <script src="https://unpkg.com/alpinejs@3.10.3/dist/cdn.min.js"></script>
+        <script src="https://cdn.tailwindcss.com/3.1.8"></script> -->
+    </head>
+
+    <body>
+        <div class="page-wrapper">
+            <!-- Preloader -->
+            {% include 'navbar.html' %}
+
+            {% block content %}
+
+            {% endblock %}
+
+
+
+            {% include 'footer.html' %}
+            {% include 'scripts.html' %}
+            {% block footer %}
+            {% endblock %}
+
+        </div>
+    </body>
+</html>

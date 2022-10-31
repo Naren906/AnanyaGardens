@@ -1,0 +1,180 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %} 
+    <!--Page Title-->
+    <section class="page-title" style="background-image: url('{%static 'images/main-slider/father.jpg'%}');" >
+        <div class="auto-container">
+            <div class="inner-container clearfix">
+                <div class="title-box">
+                    <h1>Gallary</h1>
+                    <!-- <span class="title">The Interior speak for themselves</span> -->
+                </div>
+                <ul class="bread-crumb clearfix">
+                    <li><a href="{% url 'dash_home'%}">Home</a></li>
+                    <li>Gallary</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--End Page Title-->  
+
+    
+<!-- Gallary Projects Section -->
+<section class="projects-section alternate">
+    <div class="auto-container">
+            <!--MixitUp Galery-->
+        <div class="mixitup-gallery">
+            <!--Filter-->
+            <div class="filters text-center clearfix">
+                <ul class="filter-tabs filter-btns clearfix">
+                    <li class="active filter" data-role="button" data-filter="all">Gallary</li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Gallary Projects Section -->
+
+
+<!-- Bootstrap Gallery -->
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+            class="w-100 shadow-1-strong rounded mb-4"alt="Boat on Calm Water"/>
+
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+            class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+            class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds"/>
+
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+            class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp" 
+            class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea"/>
+
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp" 
+            class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park"/>
+        </div>
+  </div>
+</div> -->
+<!-- END Bootstrap Gallery -->
+
+<!-- STRANGE GALLARY -->
+    <div class="container">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1 m-0">
+                <img src="{%static 'images/main-slider/arch.jpg'%}" alt="Gallery image 2" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2 m-0">
+                <img src="{%static 'images/main-slider/arch.jpg'%}" alt="Gallery image 2" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3 m-0">
+                <img src="{%static 'images/main-slider/father.jpg'%}" alt="Gallery image 3" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--4 m-0">
+                <img src="{%static 'images/main-slider/lantopview.jpg'%}" alt="Gallery image 4" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--5 m-0">
+                <img src="{%static 'images/main-slider/lantopview.jpg'%}" alt="Gallery image 5" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--6 m-0">
+                <img src="{%static 'images/main-slider/father.jpg'%}" alt="Gallery image 6" class="gallery__img">
+            </figure>
+        </div>
+    </div>
+<!-- END STRANGE GALLARY -->
+
+<!-- glry-------------------------------------------------------------- -->
+<!-- <div class="gallery">
+	<div class="gallery__column">
+		<a href="{%static 'images/main-slider/arch.jpg'%}" data-fancybox="gallery" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="{%static 'images/main-slider/arch.jpg'%}" alt="Portrait by Jessica Felicio" class="gallery__image">
+			</figure>
+		</a>
+
+		<a href="https://unsplash.com/@oladimeg" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="Portrait by Oladimeji Odunsi" class="gallery__image">
+			</figure>
+		</a>
+
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="https://source.unsplash.com/VLPLo-GtrIE/300x300" alt="Portrait by Alex Perez" class="gallery__image">
+			</figure>
+		</a>
+	</div>
+	
+	<div class="gallery__column">
+		<a href="https://unsplash.com/@noahbuscher" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="https://source.unsplash.com/AR7aumwKr2s/300x300" alt="Portrait by Noah Buscher" class="gallery__image">
+			</figure>
+		</a>
+		
+		<a href="https://unsplash.com/@von_co" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="https://source.unsplash.com/dnL6ZIpht2s/300x300" alt="Portrait by Ivana Cajina" class="gallery__image">
+			</figure>
+		</a>
+
+		<a href="https://unsplash.com/@samburriss" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="https://source.unsplash.com/tV_1sC603zA/300x500" alt="Portrait by Sam Burriss" class="gallery__image">
+			</figure>
+		</a>
+	</div>
+	
+	<div class="gallery__column">
+		<a href="https://unsplash.com/@marilezhava" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="https://source.unsplash.com/Xm9-vA_bhm0/300x500" alt="Portrait by Mari Lezhava" class="gallery__image">
+			</figure>
+		</a>
+		
+		<a href="https://unsplash.com/@ethanhaddox" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="https://source.unsplash.com/NTjSR3zYpsY/300x300" alt="Portrait by Ethan Haddox" class="gallery__image">
+			</figure>
+		</a>
+
+		<a href="https://unsplash.com/@mr_geshani" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="https://source.unsplash.com/2JH8d3ChNec/300x300" alt="Portrait by Amir Geshani" class="gallery__image">
+			</figure>
+		</a>
+	</div>
+	
+	<div class="gallery__column">
+		<a href="https://unsplash.com/@frxgui" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="https://source.unsplash.com/FQhLLehm4dk/300x300" alt="Portrait by Guilian Fremaux" class="gallery__image">
+			</figure>
+		</a>
+
+		<a href="https://unsplash.com/@majestical_jasmin" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="https://source.unsplash.com/OQd9zONSx7s/300x300" alt="Portrait by Jasmin Chew" class="gallery__image">
+			</figure>
+		</a>
+		
+		<a href="https://unsplash.com/@dimadallacqua" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="https://source.unsplash.com/XZkEhowjx8k/300x500" alt="Portrait by Dima DallAcqua" class="gallery__image">
+			</figure>
+		</a>
+	</div>
+</div> -->
+
+
+
+
+    {% endblock %}

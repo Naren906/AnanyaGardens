@@ -1,0 +1,24 @@
+{% load static %}
+
+<!--Scroll to top-->
+<script src="{% static 'js/jquery.js'%}"></script>
+<!-- <script src="{% static 'js/popper.min.js'%}"></script> -->
+<script src="{% static 'js/bootstrap.min.js'%}"></script>
+<script src="{% static 'js/jquery.fancybox.js'%}"></script>
+<script src="{% static 'js/owl.js'%}"></script>
+<script src="{% static 'js/jquery.mCustomScrollbar.concat.min.js'%}"></script>
+<script src="{% static 'js/wow.js'%}"></script>
+<script src="{% static 'js/appear.js'%}"></script>
+<script src="{% static 'js/mixitup.js'%}"></script>
+<script src="{% static 'js/script.js'%}"></script>
+<!-- Color Setting -->
+<script src="{% static 'js/color-settings.js'%}"></script>
+<script>
+    $(window).on('load', function() { // makes sure the whole site is loaded 
+  $('#status').fadeOut(); // will first fade out the loading animation 
+  $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+  $('body').delay(350).css({'overflow':'visible'});
+})
+</script>
+
+

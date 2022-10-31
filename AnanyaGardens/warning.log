@@ -1,0 +1,474 @@
+Not Found: /favicon.ico
+Not Found: /projectdetails/POST
+Not Found: /favicon.ico
+Forbidden (CSRF token missing.): /contact/
+Not Found: /favicon.ico
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\Ananya\AAGardens\AnanyaGardens\AAGardens\views.py", line 89, in Projectdetails
+    return render(request, 'pages/projectdetails.html')
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\urls\resolvers.py", line 803, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Projectdetails' not found. 'Projectdetails' is not a valid view function or pattern name.
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\Ananya\AAGardens\AnanyaGardens\AAGardens\views.py", line 89, in Projectdetails
+    return render(request, 'pages/projectdetails.html')
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\urls\resolvers.py", line 803, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Projectdetails' not found. 'Projectdetails' is not a valid view function or pattern name.
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\Ananya\AAGardens\AnanyaGardens\AAGardens\views.py", line 89, in Projectdetails
+    return render(request, 'pages/projectdetails.html')
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\urls\resolvers.py", line 803, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Projectdetails' not found. 'Projectdetails' is not a valid view function or pattern name.
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\Ananya\AAGardens\AnanyaGardens\AAGardens\views.py", line 89, in Projectdetails
+    return render(request, 'pages/projectdetails.html')
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\urls\resolvers.py", line 803, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Projectdetails' not found. 'Projectdetails' is not a valid view function or pattern name.
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\Ananya\AAGardens\AnanyaGardens\AAGardens\views.py", line 89, in Projectdetails
+    return render(request, 'pages/projectdetails.html')
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\urls\resolvers.py", line 803, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Projectdetails' not found. 'Projectdetails' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'enndif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\Ananya\AAGardens\AnanyaGardens\AAGardens\views.py", line 29, in dash_home
+    return render(request, 'pages/home.html')
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\defaulttags.py", line 968, in do_if
+    nodelist = parser.parse(("endif",))
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Projects\Ananya\AAGardens\virtual\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 151: 'enndif', expected 'endif'. Did you forget to register or load this tag?
+Not Found: /favicon.ico
+Not Found: /{% static                                'images/aboutus/alphabet-image.png'%}
+Not Found: /{% static                            'images/Projects/project02.jpg'%}
+Not Found: /{% static                            'images/Projects/project04.jpg'%}
+Not Found: /{% static                            'images/Projects/project01.jpg'%}
+Not Found: /{% static                                    'images/main-slider/arch.jpg'%}
+Not Found: /{% static                                'images/background/aboutus.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-03.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-05.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-01.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-04.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-06.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-02.jpg'%}
+Not Found: /{% static                                'images/icons/testimonial_icon.png'%}
+Not Found: /{% static                            'images/icons/walkingarea.png'%}
+Not Found: /{% static                            'images/icons/cctv.png'%}
+Not Found: /{% static                            'images/icons/underwater.png'%}
+Not Found: /{% static                            'images/icons/police.png'%}
+Not Found: /{% static                            'images/icons/watertower.png'%}
+Not Found: /{% static                            'images/icons/Gym.png'%}
+Not Found: /{% static                            'images/icons/lamp.png'%}
+Not Found: /{% static                            'images/icons/turf.png'%}
+Not Found: /{% static                                'images/aboutus/alphabet-image.png'%}
+Not Found: /{% static                                'images/background/aboutus.jpg'%}
+Not Found: /{% static                            'images/Projects/project01.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-01.jpg'%}
+Not Found: /{% static                            'images/Projects/project04.jpg'%}
+Not Found: /{% static                            'images/Projects/project02.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-05.jpg'%}
+Not Found: /{% static                                    'images/main-slider/arch.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-03.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-04.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-06.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-02.jpg'%}
+Not Found: /{% static                            'images/icons/underwater.png'%}
+Not Found: /{% static                            'images/icons/police.png'%}
+Not Found: /{% static                            'images/icons/walkingarea.png'%}
+Not Found: /{% static                            'images/icons/Gym.png'%}
+Not Found: /{% static                            'images/icons/cctv.png'%}
+Not Found: /{% static                            'images/icons/watertower.png'%}
+Not Found: /{% static                            'images/icons/lamp.png'%}
+Not Found: /{% static                            'images/icons/turf.png'%}
+Not Found: /{% static                                'images/icons/testimonial_icon.png'%}
+Not Found: /{% static                            'images/Projects/project04.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-01.jpg'%}
+Not Found: /{% static                            'images/Projects/project01.jpg'%}
+Not Found: /{% static                            'images/Projects/project02.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-03.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-05.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-04.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-06.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-02.jpg'%}
+Not Found: /{% static                                'images/aboutus/alphabet-image.png'%}
+Not Found: /{% static                                'images/background/aboutus.jpg'%}
+Not Found: /{% static                            'images/Projects/project04.jpg'%}
+Not Found: /{% static                            'images/Projects/project01.jpg'%}
+Not Found: /{% static                            'images/Projects/project02.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-01.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-05.jpg'%}
+Not Found: /{% static                                    'images/main-slider/arch.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-03.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-04.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-02.jpg'%}
+Not Found: /{% static                            'images/icons/police.png'%}
+Not Found: /{% static                            'images/icons/underwater.png'%}
+Not Found: /{% static                                        'images/gallery/Gal-06.jpg'%}
+Not Found: /{% static                            'images/icons/cctv.png'%}
+Not Found: /{% static                            'images/icons/walkingarea.png'%}
+Not Found: /{% static                            'images/icons/Gym.png'%}
+Not Found: /{% static                            'images/icons/watertower.png'%}
+Not Found: /{% static                            'images/icons/turf.png'%}
+Not Found: /{% static                            'images/icons/lamp.png'%}
+Not Found: /{% static                                'images/icons/testimonial_icon.png'%}
+Not Found: /{% static                                'images/aboutus/alphabet-image.png'%}
+Not Found: /{% static                            'images/Projects/project01.jpg'%}
+Not Found: /{% static                                'images/background/aboutus.jpg'%}
+Not Found: /{% static                            'images/Projects/project04.jpg'%}
+Not Found: /{% static                            'images/Projects/project02.jpg'%}
+Not Found: /{% static                                    'images/main-slider/arch.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-04.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-05.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-03.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-01.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-02.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-06.jpg'%}
+Not Found: /{% static                            'images/icons/police.png'%}
+Not Found: /{% static                            'images/icons/underwater.png'%}
+Not Found: /{% static                            'images/icons/cctv.png'%}
+Not Found: /{% static                            'images/icons/walkingarea.png'%}
+Not Found: /{% static                            'images/icons/Gym.png'%}
+Not Found: /{% static                            'images/icons/watertower.png'%}
+Not Found: /{% static                            'images/icons/lamp.png'%}
+Not Found: /{% static                            'images/icons/turf.png'%}
+Not Found: /{% static                                'images/icons/testimonial_icon.png'%}
+Not Found: /{% static                                'images/aboutus/alphabet-image.png'%}
+Not Found: /{% static                            'images/Projects/project01.jpg'%}
+Not Found: /{% static                            'images/Projects/project04.jpg'%}
+Not Found: /{% static                                'images/background/aboutus.jpg'%}
+Not Found: /{% static                            'images/Projects/project02.jpg'%}
+Not Found: /{% static                                    'images/main-slider/arch.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-01.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-05.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-03.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-04.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-02.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-06.jpg'%}
+Not Found: /{% static                            'images/icons/police.png'%}
+Not Found: /{% static                            'images/icons/underwater.png'%}
+Not Found: /{% static                            'images/icons/cctv.png'%}
+Not Found: /{% static                            'images/icons/walkingarea.png'%}
+Not Found: /{% static                            'images/icons/Gym.png'%}
+Not Found: /{% static                            'images/icons/watertower.png'%}
+Not Found: /{% static                            'images/icons/turf.png'%}
+Not Found: /{% static                            'images/icons/lamp.png'%}
+Not Found: /{% static                                'images/icons/testimonial_icon.png'%}
+Not Found: /{% static                                'images/aboutus/alphabet-image.png'%}
+Not Found: /{% static                                'images/background/aboutus.jpg'%}
+Not Found: /{% static                            'images/Projects/project01.jpg'%}
+Not Found: /{% static                            'images/Projects/project04.jpg'%}
+Not Found: /{% static                            'images/Projects/project02.jpg'%}
+Not Found: /{% static                                    'images/main-slider/arch.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-01.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-03.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-04.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-02.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-05.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-06.jpg'%}
+Not Found: /{% static                            'images/icons/underwater.png'%}
+Not Found: /{% static                            'images/icons/police.png'%}
+Not Found: /{% static                            'images/icons/cctv.png'%}
+Not Found: /{% static                            'images/icons/walkingarea.png'%}
+Not Found: /{% static                            'images/icons/Gym.png'%}
+Not Found: /{% static                            'images/icons/watertower.png'%}
+Not Found: /{% static                            'images/icons/lamp.png'%}
+Not Found: /{% static                            'images/icons/turf.png'%}
+Not Found: /{% static                                'images/icons/testimonial_icon.png'%}
+Not Found: /{% static                                'images/aboutus/alphabet-image.png'%}
+Not Found: /{% static                                'images/background/aboutus.jpg'%}
+Not Found: /{% static                            'images/Projects/project01.jpg'%}
+Not Found: /{% static                            'images/Projects/project04.jpg'%}
+Not Found: /{% static                            'images/Projects/project02.jpg'%}
+Not Found: /{% static                                    'images/main-slider/arch.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-01.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-05.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-03.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-04.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-02.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-06.jpg'%}
+Not Found: /{% static                            'images/icons/police.png'%}
+Not Found: /{% static                            'images/icons/cctv.png'%}
+Not Found: /{% static                            'images/icons/underwater.png'%}
+Not Found: /{% static                            'images/icons/walkingarea.png'%}
+Not Found: /{% static                            'images/icons/Gym.png'%}
+Not Found: /{% static                            'images/icons/lamp.png'%}
+Not Found: /{% static                            'images/icons/watertower.png'%}
+Not Found: /{% static                            'images/icons/turf.png'%}
+Not Found: /{% static                                'images/icons/testimonial_icon.png'%}
+Not Found: /{% static                            'images/Projects/project01.jpg'%}
+Not Found: /{% static                            'images/Projects/project02.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-03.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-05.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-01.jpg'%}
+Not Found: /{% static                            'images/Projects/project04.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-04.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-02.jpg'%}
+Not Found: /{% static                                        'images/gallery/Gal-06.jpg'%}
