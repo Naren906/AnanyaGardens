@@ -4,13 +4,14 @@
 
     <head>
         {% include 'headers.html' %}
-        <!-- <script src="https://unpkg.com/alpinejs@3.10.3/dist/cdn.min.js"></script>
-        <script src="https://cdn.tailwindcss.com/3.1.8"></script> -->
     </head>
 
     <body>
         <div class="page-wrapper">
             <!-- Preloader -->
+            <!-- <div id="preloader">
+                <div id="status">&nbsp;</div>
+            </div> -->
             {% include 'navbar.html' %}
             {% block content %}
 
@@ -19,10 +20,9 @@
 
 
             {% include 'footer.html' %}
-            {% include 'scripts.html' %}
-            {% block footer %}
-            {% endblock %}
-
         </div>
+        {% include 'scripts.html' %}
+        {% block footer %}
+        {% endblock %}
     </body>
 </html>
