@@ -92,7 +92,7 @@
                     <div class="image-box wow fadeInRight"
                         data-wow-delay='600ms'>
                         <figure class="alphabet-img"><img src="{% static 'images/aboutus/alphabet-image.png'%}" alt=""></figure>
-                        <figure class="image"><img src="{% static 'images/background/aboutus.jpg'%}" alt=""></figure>
+                        <figure class="image"><img src="{% static 'images/background/Aboutus.jpg'%}" alt=""></figure>
                     </div>
                 </div>
             </div>
@@ -167,8 +167,12 @@
                         <div class="link-box">
                             <a href="{% url 'projects'%}" class="d-flex justify-content-center">View Project</a>
                             <p class="d-flex justify-content-center">Or Download Broucher</p>
+                            {% if submit == 'True' %}
                             <a class="d-flex justify-content-center" style="color: #1fb161;" 
                             href="{% static 'pdf/ananya_aa_e_brouch.pdf'%}" download>AAGarden.pdf</a>
+                            {% else %}
+                            <a class="d-flex justify-content-center" data-toggle="modal" data-target="#myModal" style="color: #1fb161;">AAGarden.pdf</a>
+                            {% endif %}
                         </div>
                     </div> 
                 </div>
@@ -187,8 +191,12 @@
                         <div class="link-box">
                             <a href="{% url 'projects'%}" class="d-flex justify-content-center">View Project</a>
                             <p class="d-flex justify-content-center">Or Download Broucher</p>
+                            {% if submit == 'True' %}
                             <a class="d-flex justify-content-center" style="color: #1fb161;" 
                             href="{% static 'pdf/ananya_aa_e_brouch.pdf'%}" download>AAGarden.pdf</a>
+                            {% else %}
+                            <a class="d-flex justify-content-center" data-toggle="modal" data-target="#myModal" style="color: #1fb161;">AAGarden.pdf</a>
+                            {% endif %}
                         </div>
                     </div> 
                 </div>
@@ -514,17 +522,6 @@
 </section>
 <!--End Testimonial Section Two-->
 
-
-
-
-
-
-
-
-
-
-
-
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-dialog-centered">
@@ -566,26 +563,15 @@
 
 
 
-  <script>
-    // var viewBtn = document.querySelector(".popupmodal");
-    // viewBtn.onclick = ()=>{
-    //     popup.classList.toggle("show");
-    // }
-    // popup = document.querySelector(".popup");
-    //   close = popup.querySelector(".close"),
-    //   field = popup.querySelector(".field");
-  
-  
-
-  </script>
-  
-
-
-
-
-
-
-
+<script>
+    var viewBtn = document.querySelector(".popupmodal");
+    viewBtn.onclick = ()=>{
+        popup.classList.toggle("show");
+    }
+    popup = document.querySelector(".popup");
+        close = popup.querySelector(".close"),
+        field = popup.querySelector(".field");
+</script>
 <script>
     const appear = document.querySelector('.appear'); 
     const cb = function(entries){
